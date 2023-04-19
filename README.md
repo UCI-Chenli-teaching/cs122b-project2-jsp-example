@@ -33,11 +33,11 @@ This example shows how JSP works independently.
     mysql> INSERT IGNORE INTO stars VALUES('755017', 'Eddie Murphy', 1961);
 ```    
 ### To run this example: 
-1. clone this repository using `git clone https://github.com/UCI-Chenli-teaching/cs122b-fall21-project2-jsp-example.git`
-2. open Intellij -> Import Project -> Import Project `(choose the project you just clone)`-> Choose `Maven` -> -> Click on `Finish`.
+1. clone this repository
+2. open Intellij -> Import Project -> Import Project `(choose the project you just clone)` -> Click on `Finish`.
 3. Open `src/main/webapp/index.jsp`. Make sure you have the `moviedbexample` database.
-4. In Tomcat Deployment Configuration, make sure the application context is: /cs122b-fall21-project2-jsp-example
-5. To run the example, follow the instructions in [canvas](https://canvas.eee.uci.edu/courses/40150/pages/intellij-idea-tomcat-configuration)
+4. In Tomcat Deployment Configuration, make sure the application context is: /cs122b-project2-jsp-example
+5. To run the example, follow the instructions in canvas.
 
 ### Brief Explanation
 `index.jsp` dynamically generates the html page with Java API. It is requested as a static resource, rather than a servlet sample we have seen before.
